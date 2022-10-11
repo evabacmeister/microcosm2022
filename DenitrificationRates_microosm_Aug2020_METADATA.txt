@@ -1,0 +1,24 @@
+Sample ID; 	Unique Stroud Center identifier
+sed_source; categorical variable indicating sediment source, agricultural, streambank or sgtreambed
+target_sed_conc; targeted suspended sediment concentration in mgL-1 in the mesocosm
+sed_size; categorical variable indicating sediment size, silt or sand based on 0.63 um cutoff
+replicate
+actual_sed; actual suspended sediment mass in mg in the mesocosm, measured value
+actual_OM_g; actual suspended organic matter mass in mg in the mesocosm, measured value
+perc_OM; percentage of organic matter per unit of sediment in % in mesocosm
+actual_TSS_conc; actual suspended sediment concentration in mgL-1 in the mesocosm, measured value
+actual_OM_conc; actual suspended organic matter concentration in mgL-1 in the mesocosm, measured value
+NH4N; ammonium-N concentration in mesocosm at the end of incubation in mgNL-1
+NO3N; nitrate-N concentration in mesocosm at the end of incubation in mgNL-1
+PO4P; phosphate-PN concentration in mesocosm at the end of incubation in mgPL-1
+DOC; dissolved organic carbon concentration in mesocosm at the end of incubation in mgDOCL-1
+perc_C; percentage of carbon per unit of organic matter in %
+perc_N; percentage of nitrogen per unit of organic matter in %
+molar_CN; molar C to N ratio, unitless
+AssimUptakeRate_micro; assimilatory uptake rate in ugNd-1, calculated from background-corrected 15N in biomass post-incubation and estimated 15N-NO3 based on added 15Nmass and NO3 concentrations
+AssimUptakeRate_perSed; AssimUptakeRate_micro corrected by the amount of sediment in microcosm, rate in ugN[gsed]-1d-1
+AssimUptakeRate_perOM; AssimUptakeRate_micro corrected by the amount of organic matter in microcosm, rate in ugN[gOM]-1d-1
+Denrate_micro; Denitrification rate in ugNd-1, calculated the production rate of 29N2 (r29) and 30N2 (r30) using methods developed by Nielsen 1992 and Stingurber 2001 (Isotope pairing technique). Final estimations of total denitrification (D15 + D14)are corrected by subtracting the total D rate found in blanks
+non detectable rates (=blank) are indicated by 0 values
+Denrate_perSed; Denrate_micro corrected by the amount of sediment in microcosm, rate in ug15N[gsed]-1d-1
+Denrate_perOM; Denrate_micro corrected by the amount of organic matter in microcosm, rate in ug15N[gOMd]-1d-1
